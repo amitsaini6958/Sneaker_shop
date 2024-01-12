@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers Product Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .product-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .product-image {
+            max-width: 40%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .product-description {
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .buy-now-btn {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .buy-now-btn:hover {
+            background-color: #2980b9;
+        }
+
+        .testimonial {
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="product-container">
+        <img src="sneakers.png" alt="Sneakers" class="product-image">
+        <h2>Stealth Style</h2>
+        <p class="product-description">The Ultimate Sneaker Statement</p>
+        <p class="product-price">$949.99</p>
+        <a href="https://www.amazon.in/Nike-Midnight-White-Black-DK-Platform-BQ5451-404/dp/B0B4N653QB/ref=sr_1_6?crid=33D0VKEMD38X9&dib=eyJ2IjoiMSJ9.oFXUyWdmOlVtzbzuuE4wEtNPbfaA941utQopm2ieONY7FcHlfmyxEgNuJ7BsHykjfELyqsCc99kOFz4JGw-u0w.RG5WGvo-ILy5YE0VMHjcRujURk0YtATaWTopss300x4&dib_tag=se&keywords=nike+shoes&qid=1705037335&sprefix=nike+shoes%2Caps%2C189&sr=8-6"><button class="buy-now-btn" onclick="buyNow()">Buy Now</button></a>
+        <div class="testimonial">
+            <h3>Customer Review</h3>
+            <p>"MC STAN: 80 hazar ke shoes hain *apshand* 80 hazar ke... tera ghar isme pura chala jaingaa!"</p>
+        </div>
+    </div>
+
+    <script>
+        function buyNow() {
+            alert('Tera ghar jainga isme!');
+            // You can add additional logic for handling the purchase here
+        }
+    </script>
+
+</body>
+</html>
